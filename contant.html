@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="header">
+
+        <div class="container">
+
+            <!-- Navbar -->
+            <div class="navbar">
+
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="pro.3 img/photo-1570882280426-df8ac5ccd672(6).avif">
+                </div>
+
+                <!-- Navigation -->
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="product details.html">Related Product</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+
+                    <!-- Cart -->
+                    <img class="cart-icon" src="pro.3 img/vector-1784356509176-95b0debc020c(7).avif">
+
+                    <!-- Menu Icon -->
+                    <img src="pro.3 img/menuicion.png"
+                        class="menu-icion"
+                        onclick="memutoggle()"
+                        alt="Menu">
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Contact Section -->
+
+    <div class="small-container contact-page">
+
+        <h2 class="title">Contact Us</h2>
+
+        <div class="contact-container">
+
+            <!-- Contact Information -->
+
+            <div class="contact-info">
+
+                <h2>Get In Touch</h2>
+
+                <p>
+                    We would love to hear from you. If you have any questions
+                    about our products, orders or services, feel free to contact us.
+                </p>
+
+                <div class="contact-details">
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h4>Address</h4>
+                        <p>Karachi, Pakistan</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+92 300 1234567</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>mystore@gmail.com</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Contact Form -->
+
+            <div class="contact-form">
+
+                <h2>Send Us A Message</h2>
+
+                <form>
+
+                    <input type="text"
+                        placeholder="Your Name"
+                        required>
+
+                    <input type="email"
+                        placeholder="Your Email"
+                        required>
+
+                    <input type="text"
+                        placeholder="Subject"
+                        required>
+
+                    <textarea rows="6"
+                        placeholder="Your Message"
+                        required></textarea>
+
+                    <button type="submit" class="btn">
+                        Send Message &#8594;
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="footer-col-1">
+
+                    <h3>Download our app</h3>
+
+                    <p>
+                        Download app for Android and Mobile phone
+                    </p>
+
+                    <div class="app-log">
+                        <img src="pro.3 img/photo-1633675253769-604356d15669(29).avif">
+                        <img src="pro.3 img/photo-1678483790053-71367bc7a02c(28).avif">
+                    </div>
+
+                </div>
+
+
+                <div class="footer-col-2">
+
+                    <img src="pro.3 img/photo-1570882280426-df8ac5ccd672(6).avif">
+
+                    <p>
+                        Our purpose is to sustainably make the pleasure
+                        and benefits of shopping accessible to everyone.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-col-3">
+
+                    <h3>Useful Links</h3>
+
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="footer-col-4">
+
+                    <h3>Follow Us</h3>
+
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="copyright">
+                Copyright 2026
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        var menuitems = document.getElementById("menuitems");
+
+        menuitems.style.maxHeight = "0px";
+
+        function memutoggle() {
+
+            if (menuitems.style.maxHeight == "0px") {
+
+                menuitems.style.maxHeight = "200px";
+
+            } else {
+
+                menuitems.style.maxHeight = "0px";
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
