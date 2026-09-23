@@ -9,6 +9,7 @@ A modern and responsive e-commerce website built using **HTML, CSS and JavaScrip
 * 🔎 Product details
 * 📱 Responsive design
 * 🧭 Easy navigation
+* 📞 Contact page
 * 🖼️ Product images
 * ✨ Clean and user-friendly interface
 
